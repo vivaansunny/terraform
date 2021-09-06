@@ -8,6 +8,6 @@
 
 resource "aws_instance" "myec21" {
   ami           = "ami-0c2b8ca1dad447f8a"
-  instance_type = "t3.medium"
+  instance_type = "t2.nano"
 
 }
